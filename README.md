@@ -49,7 +49,7 @@ graph TD
     subgraph "Detection & AI"
         SQL -->|Stream| Detect[Detection Engine]
         Detect -->|Alerts| Correlate[Correlation Engine]
-        Correlate -->|Incidents| LLM[Local LLM (Ollama)]
+        Correlate -->|Incidents| LLM["Local LLM (Ollama)"]
         LLM -->|Enrichment| SQL
     end
 
