@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+pydantic
+sqlalchemy
+duckdb
+pyyaml
+python-multipart
+httpx
+chromadb
+sentence-transformers
+openai
+tiktoken
